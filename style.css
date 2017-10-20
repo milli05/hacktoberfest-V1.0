@@ -1,0 +1,132 @@
+/*Theme Name: Wesley Rodrigues;
+Description: Criação do primeiro thema para Hacktoberfest - Digital Ocean;
+Author: Wesley Rodrigues;
+Version: 1.0;*/
+
+*{ 	margin: 0
+	padding: 0; }
+	
+body { 
+	background: #fff; 
+	font: 14px arial, tahoma, verdana; 
+	text-align: center; 
+}
+
+/*==== Header ===*/
+
+#header {
+	width: 100%;
+	background: #fff;
+}
+
+#header-superior {
+	width: 100%; 
+	background: #f8f8f8; 
+	border-bottom: 1px solid #e1e1e1;
+}
+
+#header-superior-content {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#header-superior-paginas {
+	float: left;
+}
+
+#header-superior-paginas ul {
+	margin: 0;
+	padding: 0; 
+	list-style: none;
+}
+
+#header-superior-paginas ul li {
+	float: left;
+}
+
+#header-superior-paginas ul li a {
+	color: #777;
+	text-decoration: none;
+	padding: 20px 10px;
+	display: block;
+	border-right: 1px solid #e1e1e1;
+}
+
+#header-superior-paginas ul li a:hover {
+	color: #ed5353;
+	background: #eee;
+}
+
+#header-superior-social {
+	float: right;
+}
+
+#header-superior-social a {
+	display: block;
+	margin: 12px 0 0 10px;
+	float: left;
+}
+
+#header-content {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#logo {
+	float: left;
+	padding: 50px 0;
+}
+
+#login {
+	float: right;
+	margin-top: 55px;
+	margin-right: 50px;
+}
+
+#login ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#login .logar a {
+	background: #292929;
+}
+
+#login .registre a {
+	background: #171717;
+}
+
+#login ul li {
+	float: left;
+}
+
+#login ul li a {
+	padding: 6px;
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+
+#search {
+	float: right;
+	margin-top: 50px;
+}
+
+#search input {
+	float: left;
+	border: 0;
+	padding: 14px 8px;
+	width: 270px;
+	background: #eaeaea;
+
+}
+
+#search .btn-search {
+	background: #eaeaea url(imagens/icon-search.png) no-repeat center;
+	width: 38px;
+	height: 44px;
+	cursor: pointer;
+}
