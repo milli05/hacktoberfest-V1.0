@@ -5,31 +5,60 @@
 	<div id="content">
 
 		<div id="destaque">
-			Destaque
+			
+			<ul>
+				<li class="destaque"><a href=""></a></li>
+			</ul>
+
+
 		</div><!-- fim destaque -->
 
 		<div id="tecnologia">
-			Tecnologia
+
+			<ul>
+				<li class="tecnologia"><a href=""></a></li>
+			</ul>
+
 		</div><!-- fim tecnologia -->
 
 		<div id="entretenimento">
-			Entretenimento
+
+			<ul>
+				<li class="entretenimento"><a href=""></a></li>
+			</ul>
+
 		</div><!-- fim entretenimento -->
 
 		<div id="sport">
-			Sport
+
+			<ul>
+				<li class="sport"><a href=""></a></li>
+			</ul>
+
 		</div><!-- fim Sport -->
 
 		<div id="saude">
-			Saude
+
+			<ul>
+				<li class="saude"><a href=""></a></li>
+			</ul>
+
 		</div><!-- fim saude -->
 
 		<div id="politica">
-			Politica
+
+			<ul>
+				<li class="politica"><a href=""></a></li>
+			</ul>
+
 		</div><!-- fim politica -->
 
 		<div id="games">
-			Games
+
+			<ul>
+				<li class="games"><a href=""></a></li>
+			</ul>
+
 		</div><!-- fim games -->
 
 	</div><!-- fim content -->
