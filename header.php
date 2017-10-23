@@ -70,8 +70,20 @@
 
 <div id="nav">
 	
-	<div id="nave-content">
-		Barra de Navegação
+	<div id="nav-content">
+		
+		<ul>
+			<li><a href="#">Noticias</a>/</li>
+			<li><a href="#">Esportes</a>/</li>
+			<li><a href="#">Tecnologia</a>/</li>
+			<li><a href="#">Entretenimento</a>/</li>
+			<li><a href="#">Multimidias</a>/</li>
+			<li><a href="#">Saúde</a>/</li>
+			<li><a href="#">Politica</a>/</li>
+			<li><a href="#">Games</a>/</li>
+		</ul>
+
+
 	</div><!-- Barra Navegação -->
 
 </div><!--fim nav-->
