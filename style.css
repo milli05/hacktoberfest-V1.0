@@ -130,3 +130,23 @@ body {
 	height: 44px;
 	cursor: pointer;
 }
+
+/* --- Menu de Navegação -- */
+
+#nave {
+	width: 100%;
+	float: left;
+	background: #222;
+	border-top: 3px solid #ed5353;
+}
+
+#nav-content {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#nav-content ul {
+	float: left;
+	list-style: none;
+	text-align: left;
+}
