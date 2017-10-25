@@ -1,23 +1,33 @@
 <div id="sidebar">
 	
 	<div id="sidebar-visto">
-		Mais vistos
+	<ul>
+				<li  class="sidebar-visto"><a  href=" "></a></li>
+	</ul>
 	</div><!-- fim sidebar mais visto -->
 
 	<div id="sidebar-colunistas">
-		Colunistas
+	<ul>
+				<li  class="sidebar-colunistas"><a  href=" "></a></li>
+	</ul>
 	</div><!-- fim sidebar colunistas -->
 
 	<div id="sidebar-public">
-		Publicidade
+	<ul>
+				<li  class="sidebar-public"><a  href=" "></a></li>
+	</ul>
 	</div><!-- fim sidebar Public -->
 
 	<div id="sidebar-coment">
-		Mais comentados
+	<ul>
+				<li  class="sidebar-coment><a  href=" "></a></li>
+	</ul>
 	</div><!-- fim sidebar coment -->
 
 	<div id="sidebar-facebook">
-		Facebook
+	<ul>
+				<li  class="sidebar-facebook"><a  href=" "></a></li>
+	</ul>
 	</div><!-- fim sidebar facebook -->
 
 </div><!-- fim sidebar -->	
