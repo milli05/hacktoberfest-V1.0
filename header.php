@@ -18,14 +18,17 @@
 		<div id="header-superior-content">
 			
 			<div id="header-superior-paginas">
-					
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Arquivos</a></li>
-					<li><a href="#">Sobre Nós</a></li>
-					<li><a href="#">Serviços</a></li>
-					<li><a href="#">Contato</a></li>
-				</ul>
+
+				<?php if ( has_nav_menu( 'header' ) ) : ?>
+                    <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Header Menu', 'wesley_rodriques' ); ?>">
+						<?php
+						wp_nav_menu( array(
+							'theme_location' => 'header',
+							'menu_class'     => 'header-menu',
+						) );
+						?>
+                    </nav><!-- .main-navigation -->
+				<?php endif; ?>
 
 			</div><!--fim header-superior-paginas -->
 
@@ -71,17 +74,17 @@
 <div id="nav">
 	
 	<div id="nav-content">
-		
-		<ul>
-			<li><a href="#">Noticias</a>/</li>
-			<li><a href="#">Esportes</a>/</li>
-			<li><a href="#">Tecnologia</a>/</li>
-			<li><a href="#">Entretenimento</a>/</li>
-			<li><a href="#">Multimidias</a>/</li>
-			<li><a href="#">Saúde</a>/</li>
-			<li><a href="#">Politica</a>/</li>
-			<li><a href="#">Games</a>/</li>
-		</ul>
+
+		<?php if ( has_nav_menu( 'sidebar' ) ) : ?>
+            <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Sidebar Menu', 'wesley_rodriques' ); ?>">
+				<?php
+				wp_nav_menu( array(
+					'theme_location' => 'sidebar',
+					'menu_class'     => 'sidebar-menu',
+				) );
+				?>
+            </nav><!-- .main-navigation -->
+		<?php endif; ?>
 
 
 	</div><!-- Barra Navegação -->
